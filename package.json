@@ -4,13 +4,14 @@
   "private": true,
   "engines": {
     "node": "12.14.0",
-    "npm":"6.13.4"
+    "npm": "6.13.4"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.5",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -19,7 +20,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
-    "start": "node build/server.js",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
